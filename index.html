@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JP Salón | Experiencia en Belleza y Cuidado Personal</title>
+    <meta name="description" content="JP Salón ofrece servicios profesionales de peluquería, manicura, maquillaje y tratamientos de belleza en un ambiente moderno y relajante.">
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-mode">
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container container-nav">
+            <div class="logo">
+                <img src="images/logo.png" alt="JP Salón Logo" class="nav-logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#reserva">Reservas</a></li>
+            </ul>
+            <div class="mobile-menu-btn" id="mobile-menu-btn">
+                <i data-lucide="menu"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="swiper hero-slider">
+            <div class="swiper-wrapper">
+                <!-- Slide 1: Hair -->
+                <div class="swiper-slide hero-slide" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/hero-1jpeg.jpeg')">
+                    <div class="hero-content">
+                        <h1 class="reveal-up">Tu Estilo, <span class="highlight">Tu Identidad</span></h1>
+                        <p class="reveal-up">Expertos en peluquería y coloración profesional para transformar tu look.</p>
+                        <a href="#reserva" class="btn btn-primary reveal-up">Agendar Cita</a>
+                    </div>
+                </div>
+                <!-- Slide 2: Colorimetría -->
+                <div class="swiper-slide hero-slide" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/hero-2.jpeg')">
+                    <div class="hero-content">
+                        <h1 class="reveal-up">Color <span class="highlight">Sin Límites</span></h1>
+                        <p class="reveal-up">Balayage, efectos de color y tintes personalizados con productos de alta calidad.</p>
+                        <a href="#reserva" class="btn btn-primary reveal-up">Ver Catálogo</a>
+                    </div>
+                </div>
+                <!-- Slide 3: Makeup -->
+                <div class="swiper-slide hero-slide" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/hero-3.jpeg')">
+                    <div class="hero-content">
+                        <h1 class="reveal-up">Resalta <span class="highlight">Tu Belleza</span></h1>
+                        <p class="reveal-up">Maquillaje profesional para eventos especiales y novias.</p>
+                        <a href="#reserva" class="btn btn-primary reveal-up">Consultar Precios</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="services section-padding">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2>Nuestros Servicios</h2>
+                <div class="underline"></div>
+                <p>Ofrecemos una amplia gama de cuidados especializados para ti.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card reveal-up">
+                    <div class="service-img-wrapper">
+                        <img src="images/corte-para-dama.jpeg" alt="Corte para Dama">
+                    </div>
+                    <div class="service-info">
+                        <div class="service-icon"><i data-lucide="scissors"></i></div>
+                        <h3>Corte para Dama</h3>
+                        <p>Women's haircut. Definición y estilo personalizado para resaltar tu rostro.</p>
+                    </div>
+                </div>
+                <div class="service-card reveal-up">
+                    <div class="service-img-wrapper">
+                        <img src="images/corte-para-caballero.jpeg" alt="Corte para Caballero">
+                    </div>
+                    <div class="service-info">
+                        <div class="service-icon"><i data-lucide="scissors"></i></div>
+                        <h3>Corte para Caballero</h3>
+                        <p>Men's haircut. Cortes clásicos y modernos con acabado profesional.</p>
+                    </div>
+                </div>
+                <div class="service-card reveal-up">
+                    <div class="service-img-wrapper">
+                        <img src="images/barba.jpeg" alt="Barba">
+                    </div>
+                    <div class="service-info">
+                        <div class="service-icon"><i data-lucide="user"></i></div>
+                        <h3>Barba</h3>
+                        <p>Beard grooming & shave. Perfilado y afeitado tradicional con toalla caliente.</p>
+                    </div>
+                </div>
+                <div class="service-card reveal-up">
+                    <div class="service-img-wrapper">
+                        <img src="images/diseño-de-ceja.jpeg" alt="Diseño de Cejas">
+                    </div>
+                    <div class="service-info">
+                        <div class="service-icon"><i data-lucide="eye"></i></div>
+                        <h3>Diseño de Cejas</h3>
+                        <p>Brow shaping & waxing. Depilación y diseño para una mirada perfecta.</p>
+                    </div>
+                </div>
+                <div class="service-card reveal-up">
+                    <div class="service-img-wrapper">
+                        <img src="images/colorimetria-capilar.jpeg" alt="Colorimetría Capilar">
+                    </div>
+                    <div class="service-info">
+                        <div class="service-icon"><i data-lucide="palette"></i></div>
+                        <h3>Colorimetría Capilar</h3>
+                        <p>Hair colouring. Tintes, balayage y efectos de color de alta calidad.</p>
+                    </div>
+                </div>
+                <div class="service-card reveal-up">
+                    <div class="service-img-wrapper">
+                        <img src="images/WhatsApp%20Image%202026-03-29%20at%2009.21.06.jpeg" alt="Alaciados">
+                    </div>
+                    <div class="service-info">
+                        <div class="service-icon"><i data-lucide="zap"></i></div>
+                        <h3>Alaciados</h3>
+                        <p>Hair straightening. Tratamientos de keratina y alaciado permanente.</p>
+                    </div>
+                </div>
+                <div class="service-card reveal-up">
+                    <div class="service-img-wrapper">
+                        <img src="images/WhatsApp%20Image%202026-03-29%20at%2009.21.08.jpeg" alt="Rizos Permanentes">
+                    </div>
+                    <div class="service-info">
+                        <div class="service-icon"><i data-lucide="refresh-cw"></i></div>
+                        <h3>Rizos Permanentes</h3>
+                        <p>Perms. Definición y volumen duradero para tu cabello.</p>
+                    </div>
+                </div>
+                <div class="service-card reveal-up">
+                    <div class="service-img-wrapper">
+                        <img src="images/maquillaje.jpeg" alt="Maquillaje">
+                    </div>
+                    <div class="service-info">
+                        <div class="service-icon"><i data-lucide="brush"></i></div>
+                        <h3>Maquillaje</h3>
+                        <p>Makeup. Profesional para eventos, novias y sesiones editoriales.</p>
+                    </div>
+                </div>
+                <div class="service-card reveal-up">
+                    <div class="service-img-wrapper">
+                        <img src="images/peinado.jpeg" alt="Peinado">
+                    </div>
+                    <div class="service-info">
+                        <div class="service-icon"><i data-lucide="wind"></i></div>
+                        <h3>Peinado</h3>
+                        <p>Hairstyling. Recogidos y ondas para cualquier ocasión especial.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="reserva" class="booking section-padding alternate-bg">
+        <div class="container">
+            <div class="booking-wrapper">
+                <div class="booking-info reveal-left">
+                    <h2>Reserva tu momento</h2>
+                    <p>Completa el formulario y nos pondremos en contacto contigo para confirmar tu cita en menos de una hora.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i data-lucide="phone"></i>
+                            <span>+52 (33) 1234 5678</span>
+                        </div>
+                        <div class="contact-item">
+                            <i data-lucide="map-pin"></i>
+                            <span>Puerto Vallarta, Jalisco, México</span>
+                        </div>
+                    </div>
+                </div>
+                <form id="booking-form" class="booking-form reveal-right">
+                    <div class="form-group">
+                        <label for="name">Nombre Completo</label>
+                        <input type="text" id="name" name="name" required placeholder="Tu nombre">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="service">Servicio</label>
+                            <select id="service" name="service" required>
+                                <option value="" disabled selected>Selecciona un servicio</option>
+                                <option value="corte-dama">Corte para Dama</option>
+                                <option value="corte-caballero">Corte para Caballero</option>
+                                <option value="barba">Diseño de Barba</option>
+                                <option value="cejas">Diseño de Cejas</option>
+                                <option value="color">Colorimetría</option>
+                                <option value="alaciado">Alaciado</option>
+                                <option value="rizos">Rizos Permanentes</option>
+                                <option value="maquillaje">Maquillaje</option>
+                                <option value="peinado">Peinado</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Fecha</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="time">Hora</label>
+                            <input type="time" id="time" name="time" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-method">Método de contacto</label>
+                            <select id="contact-method" name="contact-method">
+                                <option value="whatsapp">WhatsApp</option>
+                                <option value="llamada">Llamada</option>
+                                <option value="email">Email</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-accent btn-block">Confirmar Reserva</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section id="ubicacion" class="map-section section-padding">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2>Encuéntranos</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="map-container reveal-up">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d119424.37943486377!2d-105.2506759!3d21.0408376!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842125f716c41003%3A0x2f8b9c46e46543b6!2sJp%20sal%C3%B3n!5e0!3m2!1ses!2smx!4v1711200000000!5m2!1ses!2smx" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="logo">
+                        <img src="images/logo.png" alt="JP Salón Logo" class="nav-logo" style="margin-bottom: 20px;">
+                    </div>
+                    <p>Realzando tu belleza natural con elegancia y profesionalismo desde 2020.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navegación</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#reserva">Reservas</a></li>
+                    </ul>
+                </div>
+                <div class="footer-hours">
+                    <h4>Horarios</h4>
+                    <p>Lunes - Viernes: 9:00 AM - 8:00 PM</p>
+                    <p>Sábados: 10:00 AM - 6:00 PM</p>
+                    <p>Domingos: Cerrado</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 JP Salón. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FAB (Floating Action Button) -->
+    <div class="fab-wrapper" id="fab-wrapper">
+        <div class="fab-menu" id="fab-menu">
+            <a href="https://wa.me/5212345678" target="_blank" class="fab-item" data-tooltip="WhatsApp">
+                <i data-lucide="message-circle"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" class="fab-item" data-tooltip="Instagram">
+                <i data-lucide="instagram"></i>
+            </a>
+            <a href="https://facebook.com" target="_blank" class="fab-item" data-tooltip="Facebook">
+                <i data-lucide="facebook"></i>
+            </a>
+            <button class="fab-item" id="theme-toggle" data-tooltip="Cambiar Tema">
+                <i data-lucide="moon" class="dark-icon"></i>
+                <i data-lucide="sun" class="light-icon"></i>
+            </button>
+        </div>
+        <button class="fab-main" id="fab-main">
+            <i data-lucide="plus"></i>
+        </button>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
